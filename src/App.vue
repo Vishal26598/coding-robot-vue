@@ -1,9 +1,11 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+      <!-- <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> -->
+      <b-jumbotron header="Coding Robot" 
+        lead="Pseudo Code to Source Code Converter" 
+        bg-variant="dark" v-bind:fluid="true"
+        header-level="1" text-variant="light"></b-jumbotron>
     <router-view/>
   </div>
 </template>
